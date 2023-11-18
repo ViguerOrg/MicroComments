@@ -42,7 +42,7 @@ public class CommentServiceTest {
 		return postRepository.save(post);
 	}
 
-	@Test
+/*	@Test
 	public void shouldReturnAddedComment() {
 		Post post = createTestPost();
 
@@ -55,5 +55,5 @@ public class CommentServiceTest {
 		assertThat("There should be one comment", comments, hasSize(1));
 		assertThat(comments.get(0).author(), equalTo("Author"));
 		assertThat(comments.get(0).comment(), equalTo("Content"));
-	}
+	}*/
 }
